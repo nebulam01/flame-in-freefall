@@ -22,18 +22,19 @@ An interactive simulation and predictive analytics dashboard developed for the *
 
 ---
 
-## ⚙️ How to Run in Google Colab
+## ⚙️ How to Run the Project
 
-> **📌 Important Note:** Due to GitHub's 25 MB file size limit, the **main Google Colab notebook (`NASA2026.ipynb` - zipped)** and all **75 NASA PSI Excel datasets** are hosted on Google Drive. To run this project properly, **you must download the files from both GitHub and Google Drive and combine them in Google Colab.**
+> **📌 Important Note:** Due to GitHub's 25 MB web file size limit, the **main notebook (`NASA2026.ipynb` - zipped)** and all **75 NASA PSI Excel datasets** are hosted on Google Drive. To run this project, **download the files from both GitHub and Google Drive and open them together in Google Colab.**
 
 1. **Download All Required Files:**
-   * **From GitHub (6 Core Project Files):** Click the green **`<> Code`** button at the top of this repository and select **Download ZIP** (extract the 6 files after downloading).
-   * **From Google Drive (Main Colab Code + 75 Excel Datasets):** Download the zipped Colab notebook (`NASA2026.ipynb`) and all **75 NASA PSI Excel datasets** (`.xlsx`) from our shared Google Drive folder: **[Download Colab Code & 75 Excel Datasets (Google Drive)](https://drive.google.com/drive/u/0/folders/1xipvwIipuFZkld-M6xa5a0lfJuJu1X1I)**
-2. **Upload Everything to Google Colab:**
-   * Extract the downloaded ZIP file from Google Drive and open **`NASA2026.ipynb`** in [Google Colab](https://colab.research.google.com/).
-   * Click the **Files (📁)** icon on the left sidebar and upload **all 6 project files from GitHub** along with **all 75 Excel (`.xlsx`) datasets** directly into your Colab session storage.
-3. **Install Dependencies & Run the Code:**
-   * Run the dependency installation command in the first Colab cell:
+   * **From GitHub (6 Core Project Files):** Click the green **`<> Code`** button at the top of this page and select **Download ZIP**, then extract the 6 files.
+   * **From Google Drive (Main Notebook + 75 Excel Datasets):** Download the zipped notebook (`NASA2026.ipynb`) and all **75 NASA PSI Excel datasets** (`.xlsx`) from our shared folder: **[Download Code & 75 Excel Datasets (Google Drive)](https://drive.google.com/drive/u/0/folders/1xipvwIipuFZkld-M6xa5a0lfJuJu1X1I)**
+2. **Open in Google Colab:**
+   * Extract the downloaded ZIP file from Google Drive to get **`NASA2026.ipynb`**.
+   * Go to Google Colab (`colab.research.google.com`), click **File > Upload notebook**, and select **`NASA2026.ipynb`** from your computer.
+   * Click the **Files (📁)** icon on the left sidebar and upload **all 6 project files from GitHub** along with **all 75 Excel (`.xlsx`) datasets** into your Colab session storage.
+3. **Install Dependencies & Run:**
+   * Run the dependency installation command in the first cell:
      ```python
      !pip install flask flask-cors pandas numpy scikit-learn openpyxl
      ```
