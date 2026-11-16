@@ -28,7 +28,7 @@ An interactive simulation and predictive analytics dashboard developed for the *
 
 1. **Download All Required Files:**
    * **From GitHub:** Click the green **`<> Code`** button at the top of this page and select **Download ZIP** (or download **`NASA2026.ipynb`** and the **6 core project files** individually).
-   * **From Google Drive:** Due to GitHub's 25 MB web file size limit, all **75 NASA PSI Excel datasets** (`.xlsx`) are stored in our Google Drive folder. Download all Excel files here: **[Download All 75 NASA PSI Excel Datasets (Google Drive)](BURAYA_DRIVE_LINKINI_YAPISTIR)**
+   * **From Google Drive:** Due to GitHub's 25 MB web file size limit, all **75 NASA PSI Excel datasets** (`.xlsx`) are stored in our Google Drive folder. Download all Excel files here: **[Download All 75 NASA PSI Excel Datasets (Google Drive)](https://drive.google.com/drive/u/0/folders/1xipvwIipuFZkld-M6xa5a0lfJuJu1X1I)**
 2. **Upload Everything to Google Colab:**
    * Open **`NASA2026.ipynb`** in [Google Colab](https://colab.research.google.com/).
    * Click the **Files (📁)** icon on the left sidebar and upload **all downloaded files** (the **6 project files** + all **75 Excel `.xlsx` files**) directly into your Colab session storage.
